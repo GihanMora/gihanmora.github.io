@@ -30,8 +30,8 @@ const setting = {
 
 const Index = () => (
     <Main
-        description={"Gihan Gamage's personal website. New York based Stanford ICME graduate, "
-            + 'co-founder and CTO of Arthena, and YC Alumni.'}
+        description={"Gihan Gamage's personal website. PhD candidate at La Trobe University, Australia, "
+            }
     >
       <article className="post" id="index">
         <header>
