@@ -49,12 +49,12 @@ const Contact = () => (
 
           <h3>Framework</h3>
           <p>Following figure shows the framework of the system.</p>
-          <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/ccv_framework.png`}  />
+          <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/ccv_framework.png`}  />
 
         <h3>Results</h3>
         <p>Summary of the results from call analysis.</p>
-        <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/ccv1.png`}  />
-        <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/ccv2.png`}  />
+        <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/ccv1.png`}  />
+        <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/ccv2.png`}  />
 
         <h3>Technologies and areas</h3>
         <p>Python, Keyword matching, Word embedding, Deep emotion extraction(Emotion AWARE), Speech-to-text(Azure), Emotion dynamics</p>

@@ -45,12 +45,12 @@ const Contact = () => (
 
           <h3>Framework</h3>
           <p>Following figure shows the framework of the system.</p>
-          <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/fin_framework.png`}  />
+          <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/fin_framework.png`}  />
 
         <h3>Results</h3>
         <p>Summary of the results from transcript analysis.</p>
-        <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/fin_res1.png`}  />
-        <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/fin_res2.png`}  />
+        <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/fin_res1.png`}  />
+        <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/fin_res2.png`}  />
 
         <h3>Technologies and areas</h3>
         <p>Python, Keyword matching, Word embedding, Deep emotion extraction(Emotion AWARE), Document parsing,  Emotion dynamics</p>

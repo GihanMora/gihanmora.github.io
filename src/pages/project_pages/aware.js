@@ -78,10 +78,10 @@ const Contact = () => (
 
           <h3>Framework</h3>
           <p>Following is the framework of Emotion AWARE.</p>
-          <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/aware_framework.png`}  />
+          <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/aware_framework.png`}  />
           <h3>How Emotion AWARE works.</h3>
           <p>Following is an example of Emotion AWARE works. Here it build emotion profile for sentence, <i>“The movie had a great start, but the ending was awful”</i> which has mixed emotions.</p>
-          <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/aware_example.png`}  />
+          <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/aware_example.png`}  />
           <h3>Technologies and areas</h3>
           <p>Python, Deep learning - Language models(BERT), Text similarity matching, word/sentence embedding, lexicon matching</p>
           <h3>Team</h3>

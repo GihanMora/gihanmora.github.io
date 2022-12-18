@@ -47,7 +47,7 @@ const Contact = () => (
 
           <h3>Framework</h3>
           <p>Following figure depicts lead generation pipeline.</p>
-          <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/armitage_framework.png`}  />
+          <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/armitage_framework.png`}  />
 
           <h3>Technologies and areas</h3>
           <p>Azure services(Virtual Machines, Storage queues), MongoDB, Python, Flask, Web Crawling, HTML, NLP(keyword/topic extraction, text clustering and classification)</p>

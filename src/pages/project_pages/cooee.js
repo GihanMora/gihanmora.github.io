@@ -39,14 +39,14 @@ const Contact = () => (
 
           <h3>Framework</h3>
           <p>Following is the framework of Cooee.</p>
-          <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/cooee_framework.png`}  />
+          <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/cooee_framework.png`}  />
           <h3>How Cooee works.</h3>
           <p>Following is an example of Cooee works. Here it tries to understand user query, <i>“What is the total energy consumption of library last Monday?”</i> It goes through various information extraction steps, converted to SQL query and compared against the database in order to extract the correct answers.</p>
-          <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/cooee_example.png`}  />
+          <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/cooee_example.png`}  />
         <h3>Cooee Implementation.</h3>
         <p>We integrated cooee to leap as QnA dashboard as well as chat popup.. Chat pop-up is for conversational question answering and dashboard is for more comprehension question answering where it can also produce tabular outputs as answers.
         </p>
-        <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/cooee_implementation.png`}  />
+        <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/cooee_implementation.png`}  />
 
         <h3>Higher order comprehension skills with Cooee.</h3>
         <p>Cooee has some advanced comprehension skills. It can resolve ambiguates, resolve coreferences and infer incomplete information.</p>
@@ -63,11 +63,11 @@ const Contact = () => (
             So here as recent chat history is talking about Bendigo campus it gives higher probability for Bendigo campus…
 
           </p>
-            <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/cooee_ambi.png`}  />
+            <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/cooee_ambi.png`}  />
           </li>
           <li>Co-reference resolution and Answer incomplete questions.
           <p>Similar to resolving ambiguations, Cooee can resolve incomplete questions and co-references</p>
-            <img width={1000} src={`${process.env.PUBLIC_URL}/images/projects/cooee_other.png`}  />
+            <img width={'100%'} src={`${process.env.PUBLIC_URL}/images/projects/cooee_other.png`}  />
           </li>
         </ul>
 
