@@ -6,7 +6,7 @@ import PhotoAlbum from "react-photo-album";
 import { ReactPhotoCollage } from "react-photo-collage";
 const setting = {
   width: '100%',
-  height: ['600px', '440px','450px','450px','450px','450px','500px'],
+  height: ['500px', '340px','350px','350px','350px','350px','400px'],
   layout: [1, 2, 1, 2, 1, 1, 2],
   photos: [
 
