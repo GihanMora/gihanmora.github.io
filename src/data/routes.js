@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: "Gihan Gamage",
     path: '/',
   },
   {
@@ -15,6 +15,14 @@ const routes = [
   {
     label: 'Projects',
     path: '/projects',
+  },
+  {
+    label: 'Teaching',
+    path: '/teaching',
+  },
+  {
+    label: 'Publications',
+    path: '/publications',
   },
   {
     label: 'Stats',

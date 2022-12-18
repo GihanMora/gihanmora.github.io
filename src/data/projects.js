@@ -1,48 +1,50 @@
 // TODO Add a couple lines about each project
 const data = [
+
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Emotion AWARE - Comprehension of emotions in Natural languages',
+    link: '/project_pages/aware',
+    image: '/images/projects/aware.png',
+    date1: '2021-11-1',
+    date2: '2022-05-1',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'An Artificial Intelligence Framework for the Elicitation of Adaptable, Robust, and Explainable Multi-Granular Emotion Assembles',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
+    title: 'Cooee: Artificial Intelligence Chatbot',
+    link: '/project_pages/cooee',
+    image: '/images/projects/cooee.png',
     date: '2015-05-15',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+        'Artificial intelligence chatbot for complex and dynamic energy environments.',
   },
+  {
+    title: 'Call recording analysis of Cancer Council Victoria(CCV)',
+    link: '/project_pages/ccv',
+    image: '/images/projects/ccv.png',
+    date: '2015-06-28',
+    desc:
+        'An Artificial Intelligence Framework for emotion and insight extraction from patient calls received to cancer council Victoria.',
+  },
+  {
+    title: 'Emotion analysis of financial transcripts',
+    link: '/project_pages/fin',
+    image: '/images/projects/fin.png',
+    date: '2015-06-28',
+    desc:
+        'Analysing emotions of financial transcripts to study correlation with market variables.',
+  },
+  {
+    title: 'LEAD Generation Pipeline',
+    subtitle: '2015 BVP Hackathon',
+    image: '/images/projects/armitage.png',
+    link: '/project_pages/armitage',
+    date: '2015-11-20',
+    desc:
+        'AI framework that builds organization profiles with web scraping and information extraction.',
+  },
+
+
 ];
 
 export default data;

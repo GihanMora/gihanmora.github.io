@@ -1,110 +1,77 @@
 const positions = [
   {
-    company: 'Arthena',
-    position: 'Co-founder, C.T.O.',
-    link: 'https://arthena.com',
-    daterange: 'January 2014 - Present',
+    position: 'Graduate Research Scientist',
+    company: 'Research Centre for Data Analytics and Cognition(CDAC), La Trobe University, Australia.',
+    link: 'https://www.latrobe.edu.au/cdachttps://www.latrobe.edu.au/cdac',
+    daterange: 'October 2021 - Present',
     points: [
-      'Deployed quantitative strategies to predict the value of fine art in various pricing contexts.',
-      'Built production, on-line, end-to-end optimized machine learning pipelines with Pandas, Numpy, Scikit, Tensorflow, Dagster, Postgres, etc. on GCP with Kubernetes.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      'YC Alumn. Worked on everything. Built a 16-person team. Operated company for 6+ years.',
+      'CDAC is a research laboratory in La Trobe University, Melbourne, Australia.',
+      'Engage in Research work in Natural Language Processing and Data Science.',
+      'Research Supervisors : Prof. Damminda Alahakoon, Prof. Daswin De Silva.'
     ],
+    image: process.env['PUBLIC_URL']+'/images/cdac.jpg',
+    image_width:'200px',
+    image_height:'120px',
   },
   {
-    company: 'Skeptical Investments',
-    position: 'Co-founder',
-    link: 'http://skepticalinvestments.biz',
-    daterange: 'April 2017 - Present',
+    position: 'Graduate Research Scientist',
+    company: 'Swinburne University of Technology, Melbourne Australia.',
+    link: 'https://www.swinburne.edu.au/',
+    daterange: 'February 2022 - August 2022',
     points: [
-      'Founded a micro-vc fund to throw token amounts of money at problems I find interesting.',
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
+      'Engage in Research work in Natural Language Processing and Data Science.',
+      'Modelling emotions in financial letters.'
     ],
+    image: process.env['PUBLIC_URL']+'/images/swin.png',
+    image_width:'160px',
+    image_height:'70px',
   },
   {
-    company: 'Enveritas',
-    position: 'Consultant',
-    link: 'http://enveritas.org',
-    daterange: 'September 2016 - 2018',
+    position: 'Contract Lecturer',
+    company: 'Department of Computer Science and Engineering, University of Moratuwa, Srilanka.',
+    link: 'http://cse.mrt.ac.lk/',
+    daterange: 'September 2020 - October 2021',
     points: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM’s, and other techniques.',
+      'Worked as a contract lecturer and contributing to both academic and research work.',
+      'Lecturing for Modular Software Development - CS2832',
+        'Mentoring - Research and Development Project-CS4202'
     ],
+    image: process.env['PUBLIC_URL']+'/images/uom.png',
+    image_width:'120px',
+    image_height:'120px',
   },
   {
-    company: 'Zenysis',
-    position: 'Consultant',
-    link: 'https://zenysis.com',
-    daterange: 'February 2016 - March 2016',
+    position: 'Junior Consultant',
+    company: 'Department of Computer Science and Engineering, University of Moratuwa, Srilanka.',
+    link: 'http://cse.mrt.ac.lk/',
+    daterange: 'February 2020 - September 2020',
     points: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
+      'Worked as as a Junior Consultant and contributing to both academic and research work.',
+      'Teaching Assistant work for modules Programming Fundamentals-CS1032, Software Engineering Project-CS3202, Research and Development Project-CS4202, Machine Learning-CS4622',
+
     ],
+    image: process.env['PUBLIC_URL']+'/images/uom.png',
+    image_width:'120px',
+    image_height:'120px',
   },
   {
-    company: 'Matroid',
-    position: 'Co-founder',
-    link: 'https://matroid.com',
-    daterange: 'July 2015 - January 2016',
+    position: 'Research Scientist',
+    company: 'Live Labs, Singapore Management University, Singapore.',
+    link: 'https://livelabs.smu.edu.sg/',
+    daterange: 'June 2018 - December 2018',
     points: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Node.JS, Express, Keystone, MongoDB, AWS, S3, Caffe, and other technologies.',
-      'Received Series A term sheets for 20M+ valuations.',
+      'Live Labs is a research laboratory in the School of Information Systems, Singapore Management University (SMU), Singapore.',
+      ' I worked with a project to build a crowdsourcing platform with advanced features which branched to areas such as Bayesian Machine Learning and Data Science and Analytics.',
+        '· Research Supervisor : Kotaro HARA, Ph.D. (Maryland, College Park) - Assistant Professor at the School of Information Systems, Singapore Management University, Singapore.'
+
     ],
+    image: process.env['PUBLIC_URL']+'/images/smu.png',
+    image_width:'180px',
+    image_height:'70px',
   },
-  {
-    company: 'Planet',
-    position: 'Missions Intern',
-    link: 'https://planet.com',
-    daterange: 'June 2014 - January 2015',
-    points: [
-      'Built models to improve image quality, signal to noise ratio, and dynamic range.',
-      'Performed statistical analysis of image quality in Matlab and Python.  Developed flight software in C++.',
-      'Organized first hackathon, prototyped hardware, and designed and built photography equipment for rocket launches.',
-    ],
-  },
-  {
-    company: 'Planetary Resources',
-    position: 'Avionics Intern',
-    link: 'http://planetaryresources.com',
-    daterange: 'January 2014 - May 2014',
-    points: [
-      'Developed simulations in Matlab for Attitude Determination and Control Subsystem.',
-      'Developed processes for in lab testing and characterization of various subsystems.',
-      'Assembled flight hardware in cleanroom.',
-    ],
-  },
-  {
-    company: 'Facebook',
-    position: 'Intern',
-    link: 'https://facebook.com',
-    daterange: 'June 2013 - September 2013',
-    points: [
-      'Developed software in python for automated testing of servers.',
-      'Performed statistical analysis with R, HIVE to assist in triage of malfunctioning servers.',
-      'Worked with vendors and ODM’s during triage to assist in risk mitigation.',
-    ],
-  },
-  {
-    company: 'SEDS-USA',
-    position: 'At Large Board Member',
-    link: 'http://seds.org',
-    daterange: 'October 2013 - October 2014',
-    points: [
-      'Elected to Board of Directors of the USA’s largest student space advocacy group based on 5+ years of work with SEDS.',
-      'Responsibilities included: organizational strategy, conference presentations, fundraising, special projects, promoting SEDS nationally and internationally, and photographing conferences.',
-    ],
-  },
-  {
-    company: 'UB Nanosatellite Program',
-    position: 'Co-founder, Program Manager',
-    link: 'https://ubnl.space/',
-    daterange: 'October 2010 – June 2012',
-    points: [
-      'Coauthored grant to build a multi-spectral imaging satellite as part of the AFRL University Nanosatellite Program.',
-      'Lead a team of 60 students through satellite development life cycle. Served as a technical expert, acquired intimate working knowledge of satellite subsystems.  Solicited funding through NASA, AFOSR, and several corporate sponsors.',
-    ],
-  },
+
+
+
 ];
 
 export default positions;

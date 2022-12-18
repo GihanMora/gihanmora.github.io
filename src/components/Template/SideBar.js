@@ -9,24 +9,18 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" style={{ height: '400px', width: '400px' }} />
       </Link>
       <header>
         <h2>Gihan Gamage</h2>
-        <p><a href="mailto:gihangamage2015@gmail.com">gihangamage2015@gmail.com</a></p>
+        <p><a href="mailto:gihangamage@gmail.com">gihangamage@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Gihan.PhD scholar at <a href="https://www.latrobe.edu.au/cdac">CDAC, Latrobe University, Australia.</a> I enjoy working with the latest research disciplines and real world applications. Interested and have experience in working with Data Science and Machine Learning, Bioinformatics, Natural Language Processing.
+
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +31,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Gihan Gamage <Link to="/">gihanmora.github.io</Link>.</p>
+      <p className="copyright">&copy; Gihan Gamage <Link to="/">d</Link>.</p>
     </section>
   </section>
 );

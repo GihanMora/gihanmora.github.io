@@ -1,23 +1,71 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { Gallery } from "react-grid-gallery";
 import Main from '../layouts/Main';
+import PhotoAlbum from "react-photo-album";
+import { ReactPhotoCollage } from "react-photo-collage";
+const setting = {
+  width: '100%',
+  height: ['600px', '440px','450px','450px','450px','450px','500px'],
+  layout: [1, 2, 1, 2, 1, 2],
+  photos: [
 
+    { source: 'images/grid/group2.jpg' },
+    { source: 'images/grid/couple.jpg' },
+    { source: 'images/grid/ltu.jpg' },
+    { source: 'images/grid/sg.jpg' },
+    { source: 'images/grid/snow.jpeg' },
+    { source: 'images/grid/snow2.jpg' },
+    { source: 'images/grid/group1.jpg' },
+    { source: 'images/grid/with_prof.jpg' },
+    { source: 'images/grid/mic.jpg' },
+
+
+
+  ],
+  showNumOfRemainingPhotos: true
+};
+const photos = [
+  {
+    src: "images/grid/ltu.jpg",
+    width: 300,
+    height: 550
+  },
+  {
+    src: "images/grid/sg.jpg",
+    width: 800,
+    height: 550
+  },
+
+];
+const photos1 = [
+  {
+    src: "images/grid/ltu.jpg",
+    width: 300,
+    height: 450
+  },
+  {
+    src: "images/grid/sg.jpg",
+    width: 800,
+    height: 250
+  },
+
+];
 const Index = () => (
   <Main
-    description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
+    description={"Gihan Gamage's personal website. New York based Stanford ICME graduate, "
     + 'co-founder and CTO of Arthena, and YC Alumni.'}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
-          </p>
+          <h2 data-testid="heading"><Link to="/">About Me</Link></h2>
+
         </div>
       </header>
+      <p>
+        Hi, I&apos;m Gihan.PhD scholar at <a href="https://www.latrobe.edu.au/cdac">CDAC, Latrobe University, Australia.</a> I enjoy working with the latest research disciplines and real world applications. Interested and have experience in working with Data Science and Machine Learning, Bioinformatics, Natural Language Processing.
+      </p>
       <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
@@ -25,8 +73,12 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+
     </article>
+
+    {/*<PhotoAlbum layout="rows" photos={photos} />*/}
+    {/*<PhotoAlbum layout="columns" photos={photos1} />*/}
+    <ReactPhotoCollage {...setting} />
   </Main>
 );
 
