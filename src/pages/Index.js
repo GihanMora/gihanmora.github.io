@@ -6,7 +6,7 @@ import PhotoAlbum from "react-photo-album";
 import { ReactPhotoCollage } from "react-photo-collage";
 const setting = {
   width: '100%',
-  height: ['600px', '440px','450px','450px','450px','450px','500px'],
+  height: ['500px', '340px','350px','350px','350px','350px','400px'],
   layout: [1, 2, 1, 2, 1, 2],
   photos: [
 
@@ -25,32 +25,7 @@ const setting = {
   ],
   showNumOfRemainingPhotos: true
 };
-const photos = [
-  {
-    src: "images/grid/ltu.jpg",
-    width: 300,
-    height: 550
-  },
-  {
-    src: "images/grid/sg.jpg",
-    width: 800,
-    height: 550
-  },
 
-];
-const photos1 = [
-  {
-    src: "images/grid/ltu.jpg",
-    width: 300,
-    height: 450
-  },
-  {
-    src: "images/grid/sg.jpg",
-    width: 800,
-    height: 250
-  },
-
-];
 const Index = () => (
   <Main
     description={"Gihan Gamage's personal website. New York based Stanford ICME graduate, "

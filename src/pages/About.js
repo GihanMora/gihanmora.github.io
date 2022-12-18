@@ -26,32 +26,8 @@ const setting = {
   ],
   showNumOfRemainingPhotos: true
 };
-const photos = [
-  {
-    src: "images/grid/ltu.jpg",
-    width: 300,
-    height: 550
-  },
-  {
-    src: "images/grid/sg.jpg",
-    width: 800,
-    height: 550
-  },
 
-];
-const photos1 = [
-  {
-    src: "images/grid/ltu.jpg",
-    width: 300,
-    height: 450
-  },
-  {
-    src: "images/grid/sg.jpg",
-    width: 800,
-    height: 250
-  },
 
-];
 const Index = () => (
     <Main
         description={"Gihan Gamage's personal website. New York based Stanford ICME graduate, "
