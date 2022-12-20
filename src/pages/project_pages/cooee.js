@@ -76,7 +76,11 @@ const Contact = () => (
         <h3>Team</h3>
         <p>Gihan Gamage(me), Nishan Mills, A. Prof. Daswin De Silva</p>
         <h3>Publications</h3>
-        <p>Publication in review</p>
+
+        <p><b>Cooee: An Artificial Intelligence Chatbot for Complex Energy Environments
+
+        </b><br/>2022 15th International Conference on Human System Interaction (HSI)<br/>
+          G Gamage, N Mills, P Rathnayaka, A Jennings, D Alahakoon   </p>
 
 
 

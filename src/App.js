@@ -20,6 +20,7 @@ const aware = lazy(() => import('./pages/project_pages/aware'));
 const cooee = lazy(() => import('./pages/project_pages/cooee'));
 const ccv = lazy(() => import('./pages/project_pages/ccv'));
 const fin = lazy(() => import('./pages/project_pages/fin'));
+const idiom = lazy(() => import('./pages/project_pages/idiom'));
 const teaching = lazy(() => import('./pages/teaching'));
 const publications = lazy(() => import('./pages/publications'));
 
@@ -38,6 +39,7 @@ const App = () => (
         <Route path="/project_pages/cooee" component={cooee} />
         <Route path="/project_pages/ccv" component={ccv} />
         <Route path="/project_pages/fin" component={fin} />
+        <Route path="/project_pages/idiom" component={idiom} />
         <Route path="/teaching" component={teaching} />
         <Route path="/publications" component={publications} />
         <Route component={NotFound} status={404} />

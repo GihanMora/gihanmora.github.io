@@ -61,7 +61,17 @@ const Contact = () => (
         <h3>Team</h3>
         <p>Gihan Gamage(me), Sajani Ranasinghe, A. Prof. Daswin De Silva, Harsha Kumara</p>
         <h3>Publications</h3>
-        <p>Publication in review</p>
+
+        <p><b>An Artificial Intelligence Framework for the Detection of Emotion Transitions in Telehealth Services
+        </b><br/>2022 15th International Conference on Human System Interaction (HSI)<br/>
+          Sajani Ranasinghe, G Gamage, Harsha Moraliyage, Nishan Mills, Nikki McCaffrey, Jessica Bucholc, Katherine Lane, Angela Cahill, Victoria White, Daswin De Silva   </p>
+
+        <p><b>Emotional transformations during Victoria's Cancer Council 131120 information and support service calls detected using Artificial Intelligence
+
+        </b><br/>COSA's 49th Annual Scientific Meeting Equitable cancer care for all: Gender, identity, culture, geography, and disease should not matter, 2–4 November 2022
+          <br/>
+          Daswin De Silva, Sajani Ranasinghe, G Gamage, Harsha Moraliyage, Nishan Mills, Jessica Bucholc, Katherine Lane, Angela Cahill, Victoria White Nikki McCaffrey   </p>
+
 
 
       </div>
