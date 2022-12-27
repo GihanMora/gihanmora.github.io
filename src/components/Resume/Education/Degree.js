@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Degree = ({ data }) => (
-  <article className="degree-container">
+  <article className="degree-container" >
     <header>
 
         <img src={data.image} alt="" style={{ height: data.image_height, width: data.image_width, float:"right"}} />
@@ -12,6 +12,7 @@ const Degree = ({ data }) => (
         <p className="school">{data.des}</p>
 
     </header>
+      <p><br/></p>
 
 
   </article>

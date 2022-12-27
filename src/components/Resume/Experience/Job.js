@@ -5,9 +5,9 @@ const Job = ({ data }) => (
   <article className="jobs-container">
     <header>
         <img src={data.image} alt="" style={{ height: data.image_height, width: data.image_width, float:"right"}} />
-      <h3>{data.position}</h3>
+        <h3>{data.position}</h3>
         <h4><a href={data.link}>{data.company}</a></h4>
-      <p className="daterange"> {data.daterange}</p>
+        <p className="daterange"> {data.daterange}</p>
     </header>
     <ul className="points">
       {data.points.map((point) => (

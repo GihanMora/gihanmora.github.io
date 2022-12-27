@@ -12,7 +12,7 @@ const degrees = [
     image_height:'120px',
   },
   {
-    school: 'Department of Computer Science and Engineering, University of Moratuwa',
+    school: 'Department of Computer Science and Engineering, University of Moratuwa, Srilanka',
     degree: 'BS.c. Computer Science and Engineering(Hons)',
     link: 'http://www.cse.mrt.ac.lk/',
     year: 'January 2015 - January 2020',
