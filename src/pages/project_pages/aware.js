@@ -89,6 +89,8 @@ const Contact = () => (
           <h3>Publications</h3>
           <p>Publication in review</p>
 
+          <h4> <a target="_blank" href={"https://github.com/CDAC-lab/nlp-emotion-AWARE"}>See project on Github</a></h4>
+
 
       </div>
 

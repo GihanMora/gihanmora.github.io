@@ -77,10 +77,13 @@ const Contact = () => (
         <p>Gihan Gamage(me), Nishan Mills, A. Prof. Daswin De Silva</p>
         <h3>Publications</h3>
 
-        <p><b>Cooee: An Artificial Intelligence Chatbot for Complex Energy Environments
+        <a target="_blank" href={"https://ieeexplore.ieee.org/document/9869464/"}>
+          <p><b>Cooee: An Artificial Intelligence Chatbot for Complex Energy Environments
 
         </b><br/>2022 15th International Conference on Human System Interaction (HSI)<br/>
-          G Gamage, N Mills, P Rathnayaka, A Jennings, D Alahakoon   </p>
+          G Gamage, N Mills, P Rathnayaka, A Jennings, D Alahakoon   </p></a>
+
+        <h4> <a target="_blank" href={"https://github.com/CDAC-lab/leap-service-qa"}>See project on Github</a></h4>
 
 
 
