@@ -11,7 +11,7 @@ const Contact = () => (
 
 
   <Main
-    title="Armitage project"
+    title="Emotion analysis of financial transcripts"
     description="Contact Gihan Gamage via email @ michael.l.dangelo@gmail.com"
   >
     <article className="post" id="contact">

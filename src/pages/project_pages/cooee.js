@@ -11,7 +11,7 @@ const Contact = () => (
 
 
   <Main
-    title="Armitage project"
+    title="Cooee: Artificial Intelligence Chatbot"
     description="Contact Gihan Gamage via email @ michael.l.dangelo@gmail.com"
   >
     <article className="post" id="contact">

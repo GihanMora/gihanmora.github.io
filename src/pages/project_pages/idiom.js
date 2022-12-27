@@ -38,6 +38,14 @@ const Contact = () => (
           <p>BERT, Huggingface, Token Classification, Python</p>
           <h3>Team</h3>
           <p>Gihan Gamage(me), A. Prof. Daswin De Silva, Achini Adikari, Prof. Damminda Alahakoon</p>
+          <h3>Publications</h3>
+
+          <p><b>A BERT-based Idiom Detection Model
+
+          </b><br/>2022 15th International Conference on Human System Interaction (HSI)<br/>
+            G Gamage, D De Silva, A Adikari, D Alahakoon    </p>
+
+          <h4> <a target="_blank" href={"https://github.com/GihanMora/idiom_detection_nlp"}>See project on Github</a></h4>
 
 
 
