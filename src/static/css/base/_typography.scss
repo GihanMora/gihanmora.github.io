@@ -9,28 +9,28 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 14pt;
+		font-size: 16pt;
 		font-weight: _font(weight);
-		line-height: 1.75;
+		line-height: 1.8;
 
 		@include breakpoint(xlarge) {
-			font-size: 12pt;
+			font-size: 16pt;
 		}
 
 		@include breakpoint(large) {
-			font-size: 12pt;
+			font-size: 14pt;
 		}
 
 		@include breakpoint(medium) {
-			font-size: 12pt;
+			font-size: 14pt;
 		}
 
 		@include breakpoint(small) {
-			font-size: 12pt;
+			font-size: 13pt;
 		}
 
 		@include breakpoint(xsmall) {
-			font-size: 12pt;
+			font-size: 13pt;
 		}
 	}
 
@@ -39,8 +39,8 @@
 			'color #{_duration(transition)} ease',
 			'border-bottom-color #{_duration(transition)} ease'
 		));
-		border-bottom: dotted 1px _palette(border-alt);
-		color: inherit;
+		border-bottom: solid 1px _palette(accent);
+		color: _palette(accent);
 		text-decoration: none;
 
 		&:before {
@@ -51,10 +51,10 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent) !important;
+			color: #0056b3; // Darker accent for hover (removed !important)
 
 			&:before {
-				color: _palette(accent) !important;
+				color: #0056b3; // Darker accent for hover (removed !important)
 			}
 		}
 	}
@@ -75,11 +75,11 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-family: _font(family-heading);
-		font-weight: _font(weight-heading-bold);
-		letter-spacing: _font(kerning-heading);
-		line-height: 1.65;
+		font-weight: _font(weight-heading); // Changed from weight-heading-bold
+		line-height: 1.5; // Adjusted line-height
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
+		// letter-spacing: _font(kerning-heading); // Removed letter-spacing
 
 		a {
 			color: inherit;
@@ -88,23 +88,23 @@
 	}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.5em; // Adjusted font size
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1.25em; // Adjusted font size
 	}
 
 	h4 {
-		font-size: 0.7em;
+		font-size: 1.0em; // Adjusted font size
 	}
 
 	h5 {
-		font-size: 0.7em;
+		font-size: 0.9em; // Adjusted font size
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.8em; // Adjusted font size
 	}
 
 	sub {

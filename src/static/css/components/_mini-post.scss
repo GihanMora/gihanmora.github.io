@@ -46,6 +46,17 @@
   background: _palette(bg);
   border: solid 1px _palette(border);
   margin: 0 0 _size(element-margin);
+  @include vendor('transition', (
+    'transform #{_duration(transition)} ease-in-out',
+    'box-shadow #{_duration(transition)} ease-in-out',
+    'border-color #{_duration(transition)} ease-in-out'
+  ));
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    border-color: _palette(accent);
+  }
 
   .image {
     overflow: hidden;
@@ -77,7 +88,7 @@
     .published {
       display: block;
       font-family: _font(family-heading);
-      font-size: 0.6em;
+      font-size: 0.75em; // Increased font size
       font-weight: _font(weight-heading);
       letter-spacing: _font(kerning-heading);
       margin: -0.625em 0 (_size(element-margin) * 0.85) 0;
