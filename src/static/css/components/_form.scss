@@ -47,10 +47,14 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
+		@include vendor('transition', (
+			'border-color #{_duration(transition)} ease-in-out',
+			'box-shadow #{_duration(transition)} ease-in-out'
+		));
 		background: _palette(border-bg);
 		border: none;
 		border: solid 1px _palette(border);
-		border-radius: 0;
+		border-radius: 0.35em; // Added border-radius
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -95,12 +99,15 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"], // Added tel to this rule as well for consistency
 	select {
 		height: _size(element-height);
+		line-height: _size(element-height); // Added line-height
 	}
 
 	textarea {
 		padding: 0.75em 1em;
+		line-height: 1.65; // Added line-height
 	}
 
 	input[type="checkbox"],
@@ -125,8 +132,15 @@
 			position: relative;
 
 			&:before {
+				@include vendor('transition', (
+					'background-color #{_duration(transition)} ease-in-out',
+					'border-color #{_duration(transition)} ease-in-out',
+					'color #{_duration(transition)} ease-in-out',
+					'box-shadow #{_duration(transition)} ease-in-out'
+				));
 				background: _palette(border-bg);
 				border: solid 1px _palette(border);
+				border-radius: 0.2em; // Slightly rounded corners for checkbox
 				content: '';
 				display: inline-block;
 				height: (_size(element-height) * 0.6);
@@ -141,8 +155,8 @@
 
 		&:checked + label {
 			&:before {
-				background: _palette(fg-bold);
-				border-color: _palette(fg-bold);
+				background: _palette(accent); // Use accent color for checked state
+				border-color: _palette(accent); // Use accent color for checked state
 				color: _palette(bg);
 				content: '\f00c';
 			}

@@ -14,33 +14,40 @@
 	table {
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
+		border-collapse: collapse; // Ensure borders combine correctly
 
 		tbody {
 			tr {
-				border: solid 1px _palette(border);
-				border-left: 0;
-				border-right: 0;
+				// border: solid 1px _palette(border); // Removed row borders
+				// border-left: 0;
+				// border-right: 0;
 
-				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
+				&:nth-child(even) { // Changed from odd to even, and color to bg-alt
+					background-color: _palette(bg-alt);
+				}
+				&:nth-child(odd) {
+					background-color: transparent; // Ensure odd rows are transparent or use bg
 				}
 			}
 		}
 
 		td {
 			padding: 0.75em 0.75em;
+			border: 1px solid _palette(border); // Added cell border
 		}
 
 		th {
+			background-color: _palette(bg-alt); // Added background for header cells
 			color: _palette(fg-bold);
 			font-size: 0.9em;
 			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0.75em 0.75em; // Adjusted padding for th
 			text-align: left;
+			border: 1px solid _palette(border); // Added cell border
 		}
 
 		thead {
-			border-bottom: solid 2px _palette(border);
+			// border-bottom: solid 2px _palette(border); // This might be redundant if th has border
 		}
 
 		tfoot {
@@ -51,28 +58,13 @@
 			border-collapse: separate;
 
 			tbody {
-				tr {
-					td {
-						border: solid 1px _palette(border);
-						border-left-width: 0;
-						border-top-width: 0;
-
-						&:first-child {
-							border-left-width: 1px;
-						}
-					}
-
-					&:first-child {
-						td {
-							border-top-width: 1px;
-						}
-					}
-				}
+				// Internal td styling for .alt is removed as default table handles borders
+				// The main distinction for .alt is border-collapse: separate
+				// and the tfoot style below.
 			}
 
-			thead {
-				border-bottom: 0;
-			}
+			// thead border adjustment for .alt is also removed as th cells now have borders
+			// by default.
 
 			tfoot {
 				border-top: 0;

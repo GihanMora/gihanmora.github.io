@@ -8,13 +8,13 @@
 
 	#sidebar {
 		margin-right: _size(section-spacing);
-		min-width: 22em;
-		width: 22em;
+		min-width: 24em; // Increased width
+		width: 24em; // Increased width
 
 		> * {
 			border-top: solid 1px _palette(border);
-			margin: _size(section-spacing) 0 0 0;
-			padding: _size(section-spacing) 0 0 0;
+			margin: _size(section-spacing-small) 0 0 0; // Adjusted margin
+			padding: _size(section-spacing-small) 0 0 0; // Adjusted padding
 		}
 
 		> :first-child {
@@ -25,9 +25,9 @@
 
 		@include breakpoint(large) {
 			border-top: solid 1px _palette(border);
-			margin: _size(section-spacing) 0 0 0;
+			margin: _size(section-spacing-small) 0 0 0; // Adjusted margin for large breakpoint
 			min-width: 0;
-			padding: _size(section-spacing) 0 0 0;
+			padding: _size(section-spacing-small) 0 0 0; // Adjusted padding for large breakpoint
 			width: 100%;
 		}
 	}

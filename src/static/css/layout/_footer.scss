@@ -7,16 +7,19 @@
 /* Footer */
 
 	#footer {
+		padding: _size(section-spacing-small) 0; // Added padding
+
 		.icons {
 			color: _palette(fg-light);
+			margin-bottom: _size(element-margin) * 0.5; // Add some margin below icons
 		}
 
 		.copyright {
 			color: _palette(fg-light);
 			font-family: _font(family-heading);
-			font-size: 0.5em;
+			font-size: 0.75em; // Increased font size
 			font-weight: _font(weight-heading);
-			letter-spacing: _font(kerning-heading);
+			// letter-spacing: _font(kerning-heading); // Removed letter-spacing
 			text-transform: uppercase;
 		}
 
